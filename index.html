@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="line-up">
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-inner-front">
+                    <div class="content-front">
+                        <div class="chip"></div>
+                        <div class="card__number">**** **** **** ****</div>
+                        <span class="fullname">FULL NAME</span>
+                        <div class="date">
+                            <div class="date-value">MM/YYYY</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-inner-back">
+                    <div class="black-bar"></div>
+                    <div class="line-up-ccv">
+                        <div class="white-bar"></div>
+                        <div class="ccv-code">***</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--form start-->
+        <div class="col-2">
+            <label>Card Number</label>
+            <input type="text" class="number" maxlength="16">
+            <label>Cardholder name</label>
+            <input type="text" class="inputname">
+            <label>Expiry date</label>
+            <input type="text" class="expire" placeholder="MM / YYYY">
+            <label>Security Number</label>
+            <input type="number" class="ccv" placeholder="CVC">
+            <button class="buy">Pay --.-- $</button>
+        </div>
+    </div>
+</body>
+
+</html>
